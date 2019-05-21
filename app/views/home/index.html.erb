@@ -1,0 +1,27 @@
+<h1>Listing Stops</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Zone</th>
+    <th>BusLines</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @positions.each do |position| %>
+    <%# p position %>
+    <tr>
+      <td><%= position[:id] %></td>
+      <td><%= position[:name] %></td>
+      <td><%= position[:zone].id %></td>
+      <td><%= position[:bus_lines] %></td>
+      <td><%= link_to "Show" %></td>
+    </tr>
+  <% end %>
+</table>
+
+<br>
+
+<%= link_to "New book" %>

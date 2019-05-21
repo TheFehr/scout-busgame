@@ -1,0 +1,614 @@
+[
+  {
+    "bus_line_id": 1,
+    "position_name": "Töss"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Zentrum Töss"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Gaswerk"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Loki"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Brühleck"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Sulzer"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Hauptbahnhof"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Schmidgasse"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Stadthaus"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Obertor"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Palmstrasse"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Swica"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Brücke"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Stadtrain"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Talacker"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Hohlandweg"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Bahnhof Oberwinterthur"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Römertor"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Guggenbühl"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Zinzikon"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Obstgartenweg"
+  },
+  {
+    "bus_line_id": 1,
+    "position_name": "Oberwinterthur"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Seen"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Zentrum Seen"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Schulhaus Seen"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Hinterdorf Seen"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Waser"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Endliker"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Gutschick"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Waldegg"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Depot"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Deutweg"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Fotozentrum"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Gewerbeschule"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Technikum"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Hauptbahnhof"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Museumstrasse/HB"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Tellstrasse"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Hinterwiesli"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Blumenau"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Feldtal"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Oberfeld"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Schloss"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Lindenplatz"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Autobahn"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Langwiesen"
+  },
+  {
+    "bus_line_id": 2,
+    "position_name": "Wülflingen"
+  },
+  {
+    "bus_line_id":  3,
+    "position_name": "Rosenberg"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Schachenweg"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Bettenplatz"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Friedhof"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Loorstrasse"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Bachtelstrasse"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Brunngasse"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Spital"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Bezirksgebäude"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Stadthaus"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Schmidgasse"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Hauptbahnhof"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Technikum"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Gewerbeschule"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Pflanzschulstrasse"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Grüzenstrasse"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Eishalle"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Scheidegg"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Strahlegg"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Etzberg"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "St. Urban"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Post Seen"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Stocken"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Grüntal"
+  },
+  {
+    "bus_line_id": 3,
+    "position_name": "Oberseen"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Archstrasse/HB"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Wylandbrücke"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Storchenbrücke"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Irchelstrasse"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Jonas Furrer"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Breite"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Nussbaumweg"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Turmstrasse"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Waldheim"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Zeughaus"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Technikum"
+  },
+  {
+    "bus_line_id": 4,
+    "position_name": "Archstrasse/HB"
+  },
+  {
+    "bus_line_id": 5,
+    "position_name": "Dättnau"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Hedy Hahnloser"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Neubruch"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Bolrebenweg"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Finken-Rain"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Ziegeleiweg"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Freizeitanlage"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Steigmühle"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Schwimmbad Töss"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Rosenau"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Töss"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Zentrum Töss"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Gaswerk"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Loki"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Brühleck"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Sulzer"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Hauptbahnhof"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Schmidgasse"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Stadthaus"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Obertor"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Gewerbeschule"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Pflanzschulstrasse"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Grüzenstrasse"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Eishalle"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Rudolf Diesel"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Grüze-Märkte"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Ohrbühl"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Industriepark"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Bahnhof Oberwinterthur"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Schiltwiesen"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Technorama"
+  },
+  {
+    "bus_line_id":  5,
+    "position_name": "Pfaffenwiesen"
+  },
+  {
+    "bus_line_id": 7,
+    "position_name": "Chli-Hegi"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Hegi im Gern"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Stäffelistrasse"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Schulhaus Neuhegi"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Else Züblin"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Industriepark"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Ohrbühl"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Grüze-Märkte"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Rudolf Diesel"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Eishalle"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Grüzenstrasse"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Pflanzschulstrasse"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Gewerbeschule"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Obertor"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Stadthaus"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Schmidgasse"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Hauptbahnhof"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Sulzer"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Brühleck"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Loki"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Gaswerk"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Schöntal"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Rebwiesen"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Friedliweg"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Nägelsee"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Grafenstein"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Schlossberg"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Fachschule"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Letten"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Klinik Schlosstal"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Ausserdorf"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Unterdorf"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Freibad Wülflingen"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Hardau"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Niederfeld"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Schulhaus Wyden"
+  },
+  {
+    "bus_line_id":  7,
+    "position_name": "Bahnhof Wülflingen"
+  }
+]

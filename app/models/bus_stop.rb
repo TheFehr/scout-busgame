@@ -1,4 +1,4 @@
 class BusStop < ApplicationRecord
-  has_one :bus_line
-  has_one :position
+  belongs_to :bus_line
+  belongs_to :position
 end

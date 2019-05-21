@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 2019_05_21_155446) do
     t.integer "points"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["name"], name: "index_positions_on_name", unique: true
     t.index ["zone_id"], name: "index_positions_on_zone_id"
   end
 
