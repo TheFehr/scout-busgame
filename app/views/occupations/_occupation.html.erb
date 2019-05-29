@@ -1,0 +1,10 @@
+<% if occupation.group.nil? %>
+  <%= bootstrap_form_for occupation, remote: true, url: occupation_url do |f| %>
+    <%= f.select :group_id, @groups, label: 'Gruppe' %>
+    <%= f.hidden_field :position_id, value: position_id %>
+    <%= f.submit 'besetzten' %>
+  <% end %>
+<% else %>
+  <b>besetzt durch: <%= occupation.group.name %></b>
+  <p>bis: <%= (occupation.created_at + 30.minutes).strftime('%H:%M:%S') %></p>
+<% end %>

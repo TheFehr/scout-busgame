@@ -1,0 +1,2 @@
+Rails.$("tr#position-<%= @position.id %> td.occupation")[0].innerHTML =
+    "<%= j( render partial: 'occupations/occupation', locals: { occupation: @occupation, position_id: @position.id } ) %>"

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'json'
 
 file = File.read(Rails.root.join('db', 'seed_data', 'bus_stops.json'))

@@ -1,0 +1,21 @@
+<%= tag.td zone.id %>
+<td><%= zone.price %></td>
+<td>
+  <% if zone.group.nil?  %>
+    <%=
+      bootstrap_form_for :zone,
+               remote: true,
+               url: {
+                   action: 'update',
+                   controller: 'zones'
+               },
+               method: :put do |f|
+    %>
+      <%= f.select :group_id, @groups, label: 'Gruppe' %>
+      <%= f.hidden_field :id, value: zone.id %>
+      <%= f.submit 'kaufen' %>
+    <% end %>
+  <% else %>
+    <b>gekauft durch: <%= zone.group.name %></b>
+  <% end %>
+</td>

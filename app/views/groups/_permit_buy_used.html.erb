@@ -1,0 +1,13 @@
+<%=
+  bootstrap_form_for :permit_buy,
+                     remote: true,
+                     url: {
+                         action: 'update',
+                         controller: 'permit_buys'
+                     },
+                     method: :put do |f|
+%>
+  <%= f.hidden_field :used, value: true %>
+  <%= f.hidden_field :id, value: permit_buy.id %>
+  <%= f.submit 'verbrauchen' %>
+<% end %>

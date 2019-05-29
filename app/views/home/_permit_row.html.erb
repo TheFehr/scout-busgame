@@ -1,0 +1,5 @@
+<tr id="permit-<%=permit.id %>">
+  <%= tag.td permit.name %>
+  <%= tag.td permit.current_price.price %>
+  <%= render partial: 'permits/permit', locals: { permit_price: permit.current_price }%>
+</tr>

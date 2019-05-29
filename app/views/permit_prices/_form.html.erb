@@ -1,0 +1,27 @@
+<%= form_with(model: permit_price, local: true) do |form| %>
+  <% if permit_price.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(permit_price.errors.count, "error") %> prohibited this permit_price from being saved:</h2>
+
+      <ul>
+      <% permit_price.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.number_field :price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :permit_id %>
+    <%= form.select :permit_id, @permits %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

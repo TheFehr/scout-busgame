@@ -1,27 +1,45 @@
-<h1>Listing Stops</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4">
+      <h1>Busstationen</h1>
 
-<table>
-  <tr>
-    <th>ID</th>
-    <th>Name</th>
-    <th>Zone</th>
-    <th>BusLines</th>
-    <th></th>
-    <th></th>
-  </tr>
+      <table class="table" id="positions">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Zone</th>
+          <th scope="col">Buslinien</th>
+          <th scope="col">Punkte</th>
+          <th scope="col"></th>
+        </tr>
 
-  <% @positions.each do |position| %>
-    <%# p position %>
-    <tr>
-      <td><%= position[:id] %></td>
-      <td><%= position[:name] %></td>
-      <td><%= position[:zone].id %></td>
-      <td><%= position[:bus_lines] %></td>
-      <td><%= link_to "Show" %></td>
-    </tr>
-  <% end %>
-</table>
+        <%= render partial: 'positions/position', collection: @positions, as: :position %>
+      </table>
+    </div>
+    <div class="col-4">
+      <h1>Zonen</h1>
 
-<br>
+      <div id="zone-errors"></div>
+      <table class="table" id="zones">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Preis</th>
+          <th scope="col"></th>
+        </tr>
+        <%= render partial: 'zone_row', collection: @zones, as: :zone %>
+      </table>
+    </div>
+    <div class="col-4">
+      <h1>Bewilligungen</h1>
+      <div id="permit-errors"></div>
+      <table class="table" id="zones">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Preis</th>
+          <th scope="col"></th>
+        </tr>
+        <%= render partial: 'permit_row', collection: @permits, as: :permit %>
+      </table>
+    </div>
+  </div>
+</div>
 
-<%= link_to "New book" %>

@@ -1,0 +1,10 @@
+<tr id="position-<%= position[:id] %>">
+  <%= tag.td position[:name] unless position[:main_position] %>
+  <%= tag.th(position[:name], scope: 'row') if position[:main_position] %>
+  <td><%= position[:zone] == 100 ? 'Keine Zone' : position[:zone] %></td>
+  <td><%= position[:bus_lines] %></td>
+  <td><%= position[:points] %></td>
+  <td class="occupation">
+    <%= render partial: 'occupations/occupation', locals: {occupation: position[:occupation], position_id: position[:id]} %>
+  </td>
+</tr>

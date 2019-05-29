@@ -1,0 +1,73 @@
+<div class="container-fluid">
+  <div class="row">
+    <p id="notice"><%= notice %></p>
+  </div>
+
+  <div class="row">
+    <h1 class="col-12">
+      <%= @group.name %>
+    </h1>
+
+    <p class="col-12">
+      <strong>Telefon:</strong>
+      <%= @group.phone %>
+    </p>
+  </div>
+
+  <div class="row">
+    <p class="col-12">
+      <strong>Geld:</strong>
+      <%= @group.money %>
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <h5>Zonen</h5>
+
+      <table class="table">
+        <tr>
+          <th scope="col">Name</th>
+          <th>Preis</th>
+        </tr>
+
+        <%= render partial: 'zone', collection: @group.zones, as: :zone %>
+
+        <tr>
+          <th scope="row">Summe:</th>
+          <td><%= @group.zones.sum(&:price) %></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-6">
+      <h5>Bewilligung</h5>
+
+      <table class="table">
+        <tr>
+          <th scope="col">Name</th>
+          <th>Preis</th>
+          <th></th>
+        </tr>
+
+        <%= render partial: 'permit_buy_row', collection: @group.permit_buys, as: :permit_buy %>
+      </table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h5>Notizen</h5>
+      <div>
+        <%= raw @group.notes %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <%= link_to 'Bearbeiten', edit_group_path(@group) %> |
+    <%= link_to 'Zurück', groups_path %>
+  </div>
+</div>
+
+

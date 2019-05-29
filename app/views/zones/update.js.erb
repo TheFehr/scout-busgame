@@ -1,0 +1,2 @@
+Rails.$("tr#zone-<%= @zone.id %>")[0].innerHTML = "<%= j( render partial: 'zone', locals: { zone: @zone } ) %>";
+Rails.$("#zone-errors")[0].innerHTML = "";

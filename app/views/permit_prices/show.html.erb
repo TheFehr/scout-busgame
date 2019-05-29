@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @permit_price.price %>
+</p>
+
+<p>
+  <strong>Permit:</strong>
+  <%= @permit_price.permit.name %>
+</p>
+
+<%= link_to 'Edit', edit_permit_price_path(@permit_price) %> |
+<%= link_to 'Back', permit_prices_path %>

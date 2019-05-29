@@ -1,0 +1,3 @@
+<%= tag.td permit_buy.permit_price.permit.name %>
+<%= tag.td permit_buy.permit_price.price %>
+<%= tag.td permit_buy.used ? 'Verbraucht' : render(partial: 'permit_buy_used', locals: { permit_buy: permit_buy }) %>
