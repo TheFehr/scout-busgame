@@ -19,7 +19,9 @@ class PermitPricesControllerTest < ActionDispatch::IntegrationTest
 
   test 'should create permit_price' do
     assert_difference('PermitPrice.count') do
-      post permit_prices_url, params: { permit_price: { permit_id: @permit_price.permit_id, price: @permit_price.price } }
+      post permit_prices_url, params: {
+        permit_price: { permit_id: @permit_price.permit_id, price: @permit_price.price }
+      }
     end
 
     assert_redirected_to permit_price_url(PermitPrice.last)
@@ -36,7 +38,9 @@ class PermitPricesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should update permit_price' do
-    patch permit_price_url(@permit_price), params: { permit_price: { permit_id: @permit_price.permit_id, price: @permit_price.price } }
+    patch permit_price_url(@permit_price), params: {
+      permit_price: { permit_id: @permit_price.permit_id, price: @permit_price.price }
+    }
     assert_redirected_to permit_price_url(@permit_price)
   end
 
