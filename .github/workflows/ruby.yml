@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Install needed dependencies
+      run: sudo apt-get install libsqlite3-dev 
     - uses: actions/checkout@v1
     - name: Load Ruby version
       run: echo "##[set-output name=RUBYV;]$(cat .tool-versions | sed 's/ruby //g')"
