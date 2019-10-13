@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Load Ruby version
-      run: echo "##[set-output name=RUBYV;]$(cat .tools-version | sed 's/ruby //g')"
+      run: echo "##[set-output name=RUBYV;]$(cat .tool-versions | sed 's/ruby //g')"
       id: rnv
     - name: Set up Ruby
       uses: actions/setup-ruby@v1
