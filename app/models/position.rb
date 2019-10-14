@@ -10,9 +10,7 @@ class Position < ApplicationRecord
   def last_valid_occupation
     return nil if occupations.last.nil?
 
-    return occupations.last if (occupations.last.created_at + 30.minutes) > Time.zone.now
-
-    nil
+    occupations.last if (occupations.last.created_at + 30.minutes) > Time.zone.now
   end
 
   def occupied?

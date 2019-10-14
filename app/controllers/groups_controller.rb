@@ -53,7 +53,7 @@ class GroupsController < ApplicationController
   private
 
   def set_groups
-    @pgroups = Group.all.collect { |p| [p.name, p.id] }
+    @pgroups = Group.all.collect { |group| [group.name, group.id] }
   end
 
   def set_group

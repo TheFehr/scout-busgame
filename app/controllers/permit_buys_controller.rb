@@ -22,7 +22,7 @@ class PermitBuysController < ApplicationController
   end
 
   def update
-    return render 'permit_buys/update' if @permit_buy.update(update_params)
+    render 'permit_buys/update' if @permit_buy.update(update_params)
   end
 
   private
@@ -32,7 +32,7 @@ class PermitBuysController < ApplicationController
   end
 
   def set_groups
-    @groups = Group.all.collect { |p| [p.name, p.id] }
+    @groups = Group.all.collect { |group| [group.name, group.id] }
   end
 
   def set_permit_buy
