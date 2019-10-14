@@ -18,8 +18,8 @@ jobs:
         ruby-version: "${{ steps.rnv.outputs.RUBYV }}"
     - name: Build and test with Rake
       run: |
-        gem install native
-        sudo native
+        gem install natives
+        sudo apt install $(natives list)
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec rake
