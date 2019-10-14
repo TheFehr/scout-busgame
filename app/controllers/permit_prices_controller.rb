@@ -65,7 +65,7 @@ class PermitPricesController < ApplicationController
   private
 
   def set_permits
-    @permits = Permit.all.collect { |p| [p.name, p.id] }
+    @permits = Permit.all.collect { |permit| [permit.name, permit.id] }
   end
 
   # Use callbacks to share common setup or constraints between actions.
