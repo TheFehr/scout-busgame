@@ -18,7 +18,7 @@ jobs:
         ruby-version: "${{ steps.rnv.outputs.RUBYV }}"
     - name: Build and test with Rake
       run: |
-        apt-get install -y build-essential libsqlite3-dev
+        sudo apt-get install -y build-essential libsqlite3-dev
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec rake
