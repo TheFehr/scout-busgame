@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '2.6.3'
+ruby '2.6.4'
 
 gem 'bootstrap_form', '>= 4.2.0'
 gem 'puma', '~> 3.11'
