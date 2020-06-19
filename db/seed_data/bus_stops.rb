@@ -2,7 +2,7 @@
 
 require 'json'
 
-file = File.read(Rails.root.join('db', 'seed_data', 'bus_stops.json'))
+file = File.read(Rails.root.join('db/seed_data/bus_stops.json'))
 data_hash = JSON.parse(file, symbolize_names: true)
 
 data_hash.each do |value|

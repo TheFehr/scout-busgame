@@ -1,6 +1,6 @@
 <td>
   <%=
-    bootstrap_form_for :permit_buy, remote: true, url: permit_buys_url do |f|
+    form_for :permit_buy, remote: true, url: permit_buys_url do |f|
   %>
     <%= f.select :group_id, @groups, label: 'Gruppe' %>
     <%= f.hidden_field :permit_price_id, value: permit_price.id %>

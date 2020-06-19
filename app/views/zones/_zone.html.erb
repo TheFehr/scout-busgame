@@ -3,7 +3,7 @@
 <td>
   <% if zone.group.nil?  %>
     <%=
-      bootstrap_form_for :zone,
+      form_for :zone,
                remote: true,
                url: {
                    action: 'update',

@@ -1,5 +1,5 @@
 <% if occupation.group.nil? %>
-  <%= bootstrap_form_for occupation, remote: true, url: occupation_url do |f| %>
+  <%= form_for occupation, remote: true, url: occupation_url do |f| %>
     <%= f.select :group_id, @groups, label: 'Gruppe' %>
     <%= f.hidden_field :position_id, value: position_id %>
     <%= f.submit 'besetzten' %>

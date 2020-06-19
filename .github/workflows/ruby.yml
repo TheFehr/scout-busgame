@@ -4,16 +4,15 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Load Ruby version
       run: echo "##[set-output name=RUBYV;]$(cat .tool-versions | sed 's/ruby //g')"
       id: rnv
     - name: Set up Ruby
-      uses: actions/setup-ruby@v1
+      uses: actions/setup-ruby@v2
       with:
         ruby-version: "${{ steps.rnv.outputs.RUBYV }}"
     - name: Build and test with Rake

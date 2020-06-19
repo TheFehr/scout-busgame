@@ -5,37 +5,36 @@ class ZonesController < ApplicationController
   before_action :set_zone
 
   def update
-    @error = 'Nicht alle Busstationen sind besetzt!'
-    return render 'zones/error' unless not_all_occupied?
-
-    @error = 'Haupt-Busstationen ist nicht durch Gruppe besetzt!'
-    return render 'zones/error' unless main_not_occupied_by_group?
-
-    find_group
-
-    @error = 'Nicht genügend Guthaben!'
-    return render 'zones/error' unless group_has_not_money?
+    @error = validate_zone
+    render 'zones/error' if @error
 
     if @zone.update(update_params)
       @group.update(money: (@group.money - @zone.price))
       return render 'zones/update'
     end
 
-    @error = 'WHAT?'
     render 'zones/error'
   end
 
   private
 
-  def group_has_not_money?
+  def validate_zone
+    return 'Nicht alle Busstationen sind besetzt!' unless all_occupied?
+    return 'Haupt-Busstationen ist nicht durch Gruppe besetzt!' unless main_occupied_by_group?
+
+    find_group
+    'Nicht genügend Guthaben!' unless group_has_enough_money?
+  end
+
+  def group_has_enough_money?
     @group.money >= @zone.price
   end
 
-  def main_not_occupied_by_group?
+  def main_occupied_by_group?
     @zone.main_station.last_valid_occupation.group_id == update_params[:group_id].to_i
   end
 
-  def not_all_occupied?
+  def all_occupied?
     @zone.positions.none?(&:occupied?)
   end
 
