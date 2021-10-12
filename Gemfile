@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 ruby '2.6.5'
 
 gem 'bootstrap_form', '>= 4.2.0'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 gem 'rails', '~> 5.2.3'
 gem 'sass-rails', '~> 5.0'
 gem 'sqlite3'
